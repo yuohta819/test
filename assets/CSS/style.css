@@ -1,10 +1,12 @@
 * {
     font-family: "Manrope", sans-serif;
-    text-decoration: none;
+ 
 }
 
 
-
+.background a {
+    text-decoration: none;
+}
 .header {
     display: flex;
     justify-content: space-between;
