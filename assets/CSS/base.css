@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-one: #6E1315;
+    --color-two: #AD110C;
+    --color-three: #dd8250f5;
+    --color-four: #FAB42C;
+    --color-five: #FCF2EF;
+    --color-font-1: #515151;
+    --color-font-2: #565656;
+    --color-font-3: #1B2026;
+    --color-font-4: #bbbb;
+}
+
+body {
+    font-family: "Be Vietnam pro", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.html {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Smart phone (480 x 640)*/
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* Smart phone nhỏ */
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
